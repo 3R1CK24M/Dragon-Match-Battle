@@ -1,15 +1,15 @@
 <?php
-
-function conectar(){
-
-    $user="root";
-    $pass="";
-    $server="localhost";
-    $db="dragon-match-batalla";
-    $con= mysql_connect ($server,$user,$pass) or die ("error al conectar".mysql_error());
-    mysql_select_db($db,$con);
-
-    return $con;
+$servername = "localhost";
+$database = "...";
+$username = "root";
+$password = "";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $database);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
+echo "Connected successfully";
+mysqli_close($conn);
 
 ?>

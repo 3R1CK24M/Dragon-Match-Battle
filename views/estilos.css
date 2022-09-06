@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #b1c6d8ce;
+    justify-content: center;
+}
+
+.container{
+    height: 85vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+    background-image: linear-gradient(to bottom right, #035c83, #bedde9);
+}
+.login h2{
+    color: #383838;
+    margin-bottom: 30px;
+}
+
+#ingresar{
+    background: #1f99e0;
+    font-size: 15px;
+    cursor: pointer;
+}

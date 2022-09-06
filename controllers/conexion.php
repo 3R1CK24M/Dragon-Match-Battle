@@ -6,9 +6,9 @@ function conectar(){
     $pass="";
     $server="localhost";
     $db="dragon-match-batalla";
-    $con=mysql_connect($server,$user,$pass) or die ("error connecting to server".mysql_error());
+    $con= mysql_connect ($server,$user,$pass) or die ("error al conectar".mysql_error());
     mysql_select_db($db,$con);
-    
+
     return $con;
 }
 

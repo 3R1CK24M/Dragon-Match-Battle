@@ -1,0 +1,11 @@
+*{
+    font-family: 'Permanent Marker', cursive;   
+
+}
+body{
+    background-image: url("../obj/kamehouse.jpg");
+    
+}
+.main{
+    background: rgba(255, 255, 255, 0.877);
+}

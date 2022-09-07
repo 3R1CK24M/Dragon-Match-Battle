@@ -22,11 +22,11 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 
                 <li class="nav-item">
-                <a class="nav-link" href="reglas.html">Reglas</a>
+                <a class="nav-link" href="model/reglas.html">Reglas</a>
                 </li>
             </ul>
             <span class="navbar-text">
-                Ser el piloto de tu propio destino
+                Sé el piloto de tu propio destino
             </span>
             </div>
         </div>

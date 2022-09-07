@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #FFAD56;">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">Dragon Match Battle</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,13 +34,17 @@
     <div class="container">
         <div class="form">
             <h1 class="titulo">Ingreso</h1>
-            <form >
+            <form method="POST">
                 <div class="form-floating">
-                    <input type="text" class="form-control" placeholder="Ingrese su nombre aqui" >
+                    <input type="text" class="form-control" placeholder="Ingrese su nombre aqui" id="name" name="name">
                     <label for="floatingTextarea">Ingresa tu nick</label>
+                </div>  
+                <div class="codigo">
+                    <input type="text" class="form-control" placeholder="Introducir codigo " id="cod" name="cod">
                 </div>
                 <div class="elboton">
-                    <button type="submit" class="btn btn-info">Entrar</button>
+                    <button type="submit"name="gsala" id="gsala" class="btn btn-info">Entrar</button>
+                    <a href="model/sala.php" type="submit"name="guardar" id="guardar" class="btn btn-info">Crear sala</a>
                 </div>
             </form>
         </div>

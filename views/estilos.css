@@ -4,15 +4,18 @@
 }
 body{
     background-image: url("../obj/kamehouse.jpg");
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 body nav{
-    margin-bottom: 220px;
+   background: rgba(109, 145, 211, 0.904);
 }
 .container{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 150px;
 }
 .form{
     background-color: rgba(125, 166, 243, 0.493);
@@ -20,5 +23,8 @@ body nav{
     padding: 25px;
 }
 .elboton{
-    margin-top: 9px;
+    margin-top: 20px;
+}
+.codigo{
+    margin-top: 10px;
 }

@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #FFAD56;">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.php">Dragon Match Battle</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +34,35 @@
     <main class="main">
         <h1>REGLAS</h1>
         <p>
-            
+            Un usuario crea una partida, la cual le arroja un número hexadecimal clave de la partida, los
+            demás jugadores, usan este código para completar el cupo de juego. Una vez se conecten al
+            sistema, más de 2 usuarios, el administrador puede decidir iniciar la partida, si se conectan 7
+            jugadores la partida inicia de manera automática, apenas el séptimo jugador se conecte.
         </p>
+        <p>
+            El sistema reparte todas las cartas posibles y selecciona de manera aleatoria las cartas
+            sobrantes, cada jugador las recibe como una pila, de tal forma que solamente él podrá ver la
+            primera carta de su paquete. Esta será la carta en juego para cada uno.
+        </p>
+        <p>
+            Inicia el juego quien tenga la carta marcada como 1A, en caso de que no se tenga en juego
+            dicha carta sigue en su orden quien tenga las 1B, o 1C o 1D ó 2A y así sucesivamente,
+            continua el Jugador en el orden en el que se conectaron al sistema.
+        </p>
+        <p>
+            Para ejecutar una ronda, el jugador que tiene el turno escoge una característica técnica del
+            modelo (por ej.: cilindraje) y ubica la carta en la zona de juego para que los demás jugadores
+            la vean y luego en orden cada jugador, van colocando su propia carta de juego (la de encima),
+            gana quien tenga el número más alto de la característica seleccionada y puede tomar las
+            cartas de sus contrincantes, en caso de empate se dejan las cartas sobre la mesa e inicia una
+            nueva ronda.
+        </p>
+        <p>  
+            Cada ronda de juego la continúa el ganador de la ronda anterior, seleccionando la
+            característica de su elección, el juego termina cuando un jugador, se queda con todas las
+            cartas, o en caso de superar 1 hora de juego, gana quien tenga más cartas en su poder, si
+            persiste el número de cartas se declara empate del juego.
+        </p>             
     </main>
 </body>
 </html>

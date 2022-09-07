@@ -4,8 +4,22 @@
 }
 body{
     background-image: url("../obj/kamehouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     
 }
-.main{
-    background: rgba(255, 255, 255, 0.877);
+body nav{
+    background: rgba(109, 145, 211, 0.904);
 }
+.main{
+    background: rgba(255, 255, 255, 0.705);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 100px;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+

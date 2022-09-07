@@ -1,36 +1,24 @@
 *{
-    margin: 0;
-    padding: 0;
-}
+    font-family: 'Permanent Marker', cursive;   
 
+}
 body{
-    background: #b1c6d8ce;
-    justify-content: center;
-}
-
-.container{
-    height: 85vh;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+    background-image: url("../obj/kamehouse.jpg");
     
 }
-
-.login{
+body nav{
+    margin-bottom: 220px;
+}
+.container{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    background: #fff;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
-    background-image: linear-gradient(to bottom right, #035c83, #bedde9);
+    flex-direction: column;
 }
-.login h2{
-    color: #383838;
-    margin-bottom: 30px;
+.form{
+    background-color: rgba(125, 166, 243, 0.493);
+    border-radius: 10px;
+    padding: 25px;
 }
-
-#ingresar{
-    background: #1f99e0;
-    font-size: 15px;
-    cursor: pointer;
+.elboton{
+    margin-top: 9px;
 }

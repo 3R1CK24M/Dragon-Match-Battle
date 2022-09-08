@@ -22,7 +22,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 
                 <li class="nav-item">
-                <a class="nav-link" href="model/reglas.html">Reglas</a>
+                <a class="nav-link" href="views/reglas.html">Reglas</a>
                 </li>
             </ul>
             <span class="navbar-text">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="elboton">
                     <button type="submit"name="gsala" id="gsala" class="btn btn-info">Entrar</button>
-                    <a href="model/sala.php" type="submit"name="guardar" id="guardar" class="btn btn-info">Crear sala</a>
+                    <a href="views/sala.php" type="submit"name="guardar" id="guardar" class="btn btn-info">Crear sala</a>
                 </div>
             </form>
         </div>
